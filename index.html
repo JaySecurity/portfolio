@@ -12,8 +12,8 @@
       <nav>
         <ul>
           <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact"> Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -25,74 +25,157 @@
           <h2>Full Stack Web Developer</h2>
         </div>
       </section>
+      <h1 class="section-title">Projects</h1>
       <section class="projects">
         <div class="card-container">
           <div class="card">
             <div class="card-front">
-              <h2>AudioPhile</h2>
-              <img src="./images/screenshots/audiopile-thb.jpg" alt="project screenshot" />
+              <h2 class="card-title">AudioPhile</h2>
+              <img
+                src="./images/screenshots/audiopile-thb.jpg"
+                alt="project screenshot"
+              />
               <p class="description">
-                Keep an online catalogue of your album collection with Audiophile!
+                Keep an online catalogue of your album collection with
+                Audiophile!
               </p>
             </div>
             <div class="card-back">
-              <p class="description">
-                <ul>
-                  <li>Django</li>
-                  <li>Postgresql</li>
-                  <li>Materialize CSS</li>
-                </ul>
-              </p>
-              <a href="https://audiophile2021.herokuapp.com/" target="_blank" class="btn">See It Live on Heroku</a>
-              <a href="https://github.com/JaySecurity/MusicCatalogue" target="_blank" class="btn">See the Code</a>
+              <h2 class="card-title">Technologies Used</h2>
+              <ul class="tech-list">
+                <li>Django</li>
+                <li>Postgresql</li>
+                <li>Materialize CSS</li>
+                <li>Javascript</li>
+                <li>theAudioBD API</li>
+                <li>Songkick API</li>
+              </ul>
+              <a
+                href="https://audiophile2021.herokuapp.com/"
+                target="_blank"
+                class="btn"
+                >See It Live on Heroku</a
+              >
+              <a
+                href="https://github.com/JaySecurity/MusicCatalogue"
+                target="_blank"
+                class="btn"
+                >See the Code</a
+              >
             </div>
           </div>
         </div>
         <div class="card-container">
           <div class="card">
             <div class="card-front">
-              <h2>myLocalScene</h2>
-              <img src="./images/screenshots/myLocalScene-thb.jpg" alt="project screenshot" />
+              <h2 class="card-title">myLocalScene</h2>
+              <img
+                src="./images/screenshots/myLocalScene-thb.jpg"
+                alt="project screenshot"
+              />
               <p class="description">
                 A Place for artists and venues to promote their upcoming events.
               </p>
             </div>
             <div class="card-back">
-              <p class="description">
-                <ul>
-                  <li>Node / Express</li>
-                  <li>MongoDB / Mongoose</li>
-                  <li>Sass</li>
-                  <li>EJS</li>
-                </ul>
-              </p>
-              <a href="https://mylocalscene.herokuapp.com/" target="_blank" class="btn">See It Live on Heroku</a>
-              <a href="https://github.com/JaySecurity/myLocalScene" target="_blank" class="btn">See the Code</a>
+              <h2 class="card-title">Technologies Used</h2>
+              <ul class="tech-list">
+                <li>Node / Express</li>
+                <li>MongoDB / Mongoose</li>
+                <li>Sass</li>
+                <li>EJS</li>
+              </ul>
+              <a
+                href="https://mylocalscene.herokuapp.com/"
+                target="_blank"
+                class="btn"
+                >See It Live on Heroku</a
+              >
+              <a
+                href="https://github.com/JaySecurity/myLocalScene"
+                target="_blank"
+                class="btn"
+                >See the Code</a
+              >
             </div>
           </div>
         </div>
         <div class="card-container">
           <div class="card">
             <div class="card-front">
-              <h2>Wheel of Fortune</h2>
-              <img src="./images/screenshots/wheel-thb.jpg" alt="project screenshot" />
-              <p class="description">
-                A 2 Player Wheel of Fortune type game.
-              </p>
+              <h2 class="card-title">Wheel of Fortune</h2>
+              <img
+                src="./images/screenshots/wheel-thb.jpg"
+                alt="project screenshot"
+              />
+              <p class="description">A 2 Player Wheel of Fortune type game.</p>
             </div>
             <div class="card-back">
-              <p class="description">
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                </ul>
-              </p>
-              <a href="https://jaysecurity.github.io/Wheel-of-Fortune/" target="_blank" class="btn">See It Live</a>
-              <a href="https://github.com/JaySecurity/Wheel-of-Fortune" target="_blank" class="btn">See the Code</a>
+              <h2 class="card-title">Technologies Used</h2>
+              <ul class="tech-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <a
+                href="https://jaysecurity.github.io/Wheel-of-Fortune/"
+                target="_blank"
+                class="btn"
+                >See It Live</a
+              >
+              <a
+                href="https://github.com/JaySecurity/Wheel-of-Fortune"
+                target="_blank"
+                class="btn"
+                >See the Code</a
+              >
             </div>
           </div>
         </div>
+      </section>
+      <h1 class="section-title">About Me</h1>
+      <section id="about">
+        <p id="about-desc">
+          My passion for coding began as a teen. Creating inspired solutions was
+          exciting. Working in the tire industry I used my skills to create an
+          inventory tracker and automation tools that simplified some of my
+          day-to-day tasks. My role as a service coordinator allowed me to
+          develop exceptional organizational, communication, and problem solving
+          skills that will be very beneficial to a career in software
+          development.
+        </p>
+        <h2>Skills</h2>
+        <h3>Proficient:</h3>
+        <ul class="skills-list">
+          <li class="skills-list-item">HTML</li>
+          <li class="skills-list-item">CSS</li>
+          <li class="skills-list-item">Javascript</li>
+          <li class="skills-list-item">Python</li>
+          <li class="skills-list-item">Django</li>
+          <li class="skills-list-item">MongoDB</li>
+          <li class="skills-list-item">SQL</li>
+        </ul>
+        <h3>Familiar:</h3>
+        <ul class="skills-list">
+          <li class="skills-list-item">SASS</li>
+          <li class="skills-list-item">Materialize CSS</li>
+          <li class="skills-list-item">React</li>
+        </ul>
+      </section>
+      <h1 class="section-title">Contact</h1>
+      <section id="contact">
+        <a
+          class="btn"
+          href="mailto: jason@rockitfuelproductions.com"
+          target="_blank"
+          >Email</a
+        >
+        <a
+          class="btn"
+          href="https://www.linkedin.com/in/jason-nicholls-on/"
+          target="_blank"
+          >Linkedin</a
+        >
       </section>
       <footer></footer>
     </div>
