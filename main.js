@@ -22,7 +22,7 @@ cards.forEach((card) => {
   card.addEventListener('mouseleave', (e) => {
     card.querySelector('.card').classList.toggle('card-hover');
   });
-  card.addEventListener('touchstart', (e) => {
+  card.addEventListener('touchmove', (e) => {
     e.preventDefault();
     card.querySelector('.card').classList.toggle('card-hover');
   });
