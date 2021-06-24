@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.logo {
+  height: 95%;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0.25rem 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+}
+
+.menuItem:hover {
+  transform: scale(0.9);
+  border: 2px solid rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
