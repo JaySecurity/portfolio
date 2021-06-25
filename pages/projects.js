@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -6,8 +7,22 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import Head from 'next/head';
 import styles from '../styles/Projects.module.css';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    overflow: 'visible',
+    display: 'flex',
+    margin: '2.5rem',
+    alignItems: 'center',
+    width: 900,
+    height: 400,
+    padding: '1rem',
+  },
+});
 
 export default function Projects() {
+  const classes = useStyles();
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +31,7 @@ export default function Projects() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className={styles.main}>
-        <Card className={styles.card}>
+        <Card className={classes.root}>
           <div className={styles.image}>
             <CardMedia
               className={styles.screenshot}
@@ -53,6 +68,54 @@ export default function Projects() {
                 </Button>
               </a>
               <a href='https://palmpatrol.herokuapp.com' target='_blank'>
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<PlayCircleOutlineIcon />}
+                >
+                  Live On Heroku
+                </Button>
+              </a>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className={classes.root}>
+          <div className={styles.image}>
+            <CardMedia
+              className={styles.screenshot}
+              image='/images/screenshots/audiophile-lg.png'
+              title='Audiophile'
+            />
+          </div>
+          <CardContent>
+            <h2>Audiophile</h2>
+            <p className='description'>
+              Keep an online catalogue of your album collection with Audiophile!
+            </p>
+            <h4 className='card-title'>Technologies Used</h4>
+            <ul className='tech-list'>
+              <li>Django</li>
+              <li>Postgresql</li>
+              <li>Materialize CSS</li>
+              <li>Javascript</li>
+              <li>theAudioBD API</li>
+              <li>Songkick API</li>
+            </ul>
+            <div className='buttons'>
+              <a
+                href='https://github.com/JaySecurity/MusicCatalogue'
+                target='_blank'
+              >
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<GitHubIcon />}
+                >
+                  Code
+                </Button>
+              </a>
+              <a href='https://audiophile2021.herokuapp.com' target='_blank'>
                 <Button
                   variant='contained'
                   className={styles.button}
