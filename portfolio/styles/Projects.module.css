@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.main {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 233, 233);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 900px !important;
+  padding: 1rem;
+}
+
+.screenshot {
+  height: 350px;
+  margin-bottom: 0.75rem;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card p,
+.card h2,
+.card h4 {
+  margin-bottom: 0.75rem;
+}
+
+.image {
+  height: 350px;
+  width: 500px;
+}
+
+.button {
+  background-color: darkslategray !important;
+  color: floralwhite !important;
+  margin: 1.25rem 0.75rem !important;
+}
