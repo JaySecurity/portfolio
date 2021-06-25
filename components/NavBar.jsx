@@ -13,9 +13,9 @@ function NavBar() {
         <Link href='/projects'>
           <li className={styles.menuItem}>Projects</li>
         </Link>
-        <Link href='/contact'>
+        {/* <Link href='/contact'>
           <li className={styles.menuItem}>Contact</li>
-        </Link>
+        </Link> */}
       </ul>
     </div>
   );

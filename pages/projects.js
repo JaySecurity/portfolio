@@ -24,14 +24,14 @@ const useStyles = makeStyles({
 export default function Projects() {
   const classes = useStyles();
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Head>
         <title>Jason Nicholls - Projects</title>
         <meta name='description' content='Portfolio Website' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className={styles.main}>
-        <Card className={classes.root}>
+        <div className={styles.card}>
           <div className={styles.image}>
             <CardMedia
               className={styles.screenshot}
@@ -78,9 +78,9 @@ export default function Projects() {
               </a>
             </div>
           </CardContent>
-        </Card>
+        </div>
 
-        <Card className={classes.root}>
+        <div className={styles.card}>
           <div className={styles.image}>
             <CardMedia
               className={styles.screenshot}
@@ -126,7 +126,101 @@ export default function Projects() {
               </a>
             </div>
           </CardContent>
-        </Card>
+        </div>
+
+        <div className={styles.card}>
+          <div className={styles.image}>
+            <CardMedia
+              className={styles.screenshot}
+              image='/images/screenshots/myLocalScene-lg.png'
+              title='MyLocalScene'
+            />
+          </div>
+          <CardContent>
+            <h2>MyLocalScene</h2>
+            <p className='description'>
+              A Place for artists and venues to promote their upcoming events.
+            </p>
+            <h4 className='card-title'>Technologies Used</h4>
+            <ul className='tech-list'>
+              <li>Node / Express</li>
+              <li>MongoDB / Mongoose</li>
+              <li>Sass</li>
+              <li>EJS</li>
+            </ul>
+            <div className='buttons'>
+              <a
+                href='https://github.com/JaySecurity/myLocalScene'
+                target='_blank'
+              >
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<GitHubIcon />}
+                >
+                  Code
+                </Button>
+              </a>
+              <a href='https://mylocalscene.herokuapp.com/' target='_blank'>
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<PlayCircleOutlineIcon />}
+                >
+                  Live On Heroku
+                </Button>
+              </a>
+            </div>
+          </CardContent>
+        </div>
+
+        <div className={styles.card}>
+          <div className={styles.image}>
+            <CardMedia
+              className={styles.screenshot}
+              image='/images/screenshots/wheel-lg.png'
+              title='Wheel Of Fortune'
+            />
+          </div>
+          <CardContent>
+            <h2>Wheel of Fortune</h2>
+            <p className='description'>
+              A 2 Player Wheel of Fortune type game.
+            </p>
+            <h4 className='card-title'>Technologies Used</h4>
+            <ul className='tech-list'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+            <div className='buttons'>
+              <a
+                href='https://github.com/JaySecurity/Wheel-of-Fortune'
+                target='_blank'
+              >
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<GitHubIcon />}
+                >
+                  Code
+                </Button>
+              </a>
+              <a
+                href='https://jaysecurity.github.io/Wheel-of-Fortune/'
+                target='_blank'
+              >
+                <Button
+                  variant='contained'
+                  className={styles.button}
+                  startIcon={<PlayCircleOutlineIcon />}
+                >
+                  Live On Github Pages
+                </Button>
+              </a>
+            </div>
+          </CardContent>
+        </div>
       </main>
     </div>
   );

@@ -11,9 +11,19 @@ html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100vh;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  position: fixed;
+  top: 10vh;
+  bottom: 5vh;
+  left: 0;
+  right: 0;
 }

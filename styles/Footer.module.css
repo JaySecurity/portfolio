@@ -1,6 +1,8 @@
 .footer {
+  position: fixed;
+  bottom: 0;
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
   background-color: darkslategray;
   color: floralwhite;
   border-top: 1px solid #eaeaea;
@@ -9,12 +11,12 @@
   align-items: center;
 }
 
-.footer a {
+/* .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
+} */
 
 .logo {
   height: 1em;
@@ -23,4 +25,11 @@
 
 .footer button {
   color: floralwhite !important;
+}
+
+.socials {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

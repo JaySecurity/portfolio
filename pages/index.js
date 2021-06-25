@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Head>
         <title>Jason Nicholls - Software Engineer</title>
         <meta name='description' content='Portfolio Website' />

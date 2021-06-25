@@ -8,21 +8,23 @@ import styles from '../styles/Footer.module.css';
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <a target='_blank' href='https://github.com/JaySecurity'>
-        <IconButton>
-          <GitHubIcon />
-        </IconButton>
-      </a>
-      <a target='_blank' href='https://linkedin.com/in/jason-nicholls-on/'>
-        <IconButton>
-          <LinkedInIcon />
-        </IconButton>
-      </a>
-      <a target='_blank' href='mailto:jason@rockitfuelproductions.com'>
-        <IconButton>
-          <EmailIcon />
-        </IconButton>
-      </a>
+      <div className={styles.socials}>
+        <a target='_blank' href='https://github.com/JaySecurity'>
+          <IconButton>
+            <GitHubIcon />
+          </IconButton>
+        </a>
+        <a target='_blank' href='https://linkedin.com/in/jason-nicholls-on/'>
+          <IconButton>
+            <LinkedInIcon />
+          </IconButton>
+        </a>
+        <a target='_blank' href='mailto:jason@rockitfuelproductions.com'>
+          <IconButton>
+            <EmailIcon />
+          </IconButton>
+        </a>
+      </div>
     </footer>
   );
 }
