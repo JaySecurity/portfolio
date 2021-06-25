@@ -5,7 +5,7 @@ import styles from '../styles/NavBar.module.css';
 function NavBar() {
   return (
     <div className={styles.navbar}>
-      <img className={styles.logo} src='/images/rocket.jpeg' alt='logo' />
+      <img className={styles.logo} src='/images/rocket.gif' alt='logo' />
       <ul className={styles.menu}>
         <Link href='/'>
           <li className={styles.menuItem}>Home</li>
