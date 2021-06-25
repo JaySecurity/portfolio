@@ -1,18 +1,27 @@
+import IconButton from '@material-ui/core/IconButton';
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import React from 'react';
 import styles from '../styles/Footer.module.css';
 
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <a
-        href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Powered by{' '}
-        <span className={styles.logo}>
-          <img src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-        </span>
+      <a target='_blank' href='https://github.com/JaySecurity'>
+        <IconButton>
+          <GitHubIcon />
+        </IconButton>
+      </a>
+      <a target='_blank' href='https://linkedin.com/in/jason-nicholls-on/'>
+        <IconButton>
+          <LinkedInIcon />
+        </IconButton>
+      </a>
+      <a target='_blank' href='mailto:jason@rockitfuelproductions.com'>
+        <IconButton>
+          <EmailIcon />
+        </IconButton>
       </a>
     </footer>
   );

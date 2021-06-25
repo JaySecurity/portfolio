@@ -29,8 +29,8 @@ export default function Projects() {
             <p className='description'>
               Neighborhood Watch in the palm of your hand
             </p>
-            <h4 class='card-title'>Technologies Used</h4>
-            <ul class='tech-list'>
+            <h4 className='card-title'>Technologies Used</h4>
+            <ul className='tech-list'>
               <li>MongoDB</li>
               <li>Express</li>
               <li>React</li>
@@ -41,7 +41,7 @@ export default function Projects() {
             </ul>
             <div className='buttons'>
               <a
-                href='https://github.com/JaySecurity/MusicCatalogue'
+                href='https://github.com/JaySecurity/palm-patrol'
                 target='_blank'
               >
                 <Button
