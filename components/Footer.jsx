@@ -9,17 +9,29 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.socials}>
-        <a target='_blank' href='https://github.com/JaySecurity'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/JaySecurity'
+        >
           <IconButton>
             <GitHubIcon />
           </IconButton>
         </a>
-        <a target='_blank' href='https://linkedin.com/in/jason-nicholls-on/'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://linkedin.com/in/jason-nicholls-on/'
+        >
           <IconButton>
             <LinkedInIcon />
           </IconButton>
         </a>
-        <a target='_blank' href='mailto:jason@rockitfuelproductions.com'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='mailto:jason@rockitfuelproductions.com'
+        >
           <IconButton>
             <EmailIcon />
           </IconButton>

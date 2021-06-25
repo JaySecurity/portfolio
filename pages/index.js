@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -11,10 +12,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img
+        <Image
           className={styles.headshot}
-          src='./images/headshot-600px.png'
+          src='/images/headshot-600px.png'
           alt='Jason Headshot'
+          width={320}
+          height={320}
         />
         <div>
           <div className={styles.typing}>
