@@ -52,6 +52,7 @@
 @media screen and (max-width: 925px) {
   .card {
     flex-direction: column;
+    padding: 1rem 0;
     height: auto;
     width: 90vw;
   }

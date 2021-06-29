@@ -33,6 +33,12 @@ export default function Home() {
             problem solving skills that will be very beneficial to a career in
             software development.
           </p>
+          <pre className={styles.skills}>
+            {`const skills = {
+                proficient: ["Javascript", "Node.js", "Express", "React", "HTML", "CSS", "Python", "Django", "MongoDB", "SQL (MySql, Postgresql)", "SASS", "Git", "Linux", "Rest API's"], 
+                familiar : [ "Redux", "Material-UI", "Materialize CSS", "Bootstrap", "JQuery" ] 
+              }`}
+          </pre>
         </div>
       </main>
     </div>

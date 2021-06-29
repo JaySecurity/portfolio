@@ -30,6 +30,13 @@
   line-height: 1.5;
 }
 
+.skills {
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
 @media screen and (max-width: 1050px) {
   .main {
     flex-direction: column;
