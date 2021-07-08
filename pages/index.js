@@ -25,18 +25,15 @@ export default function Home() {
             <h2>Full Stack Web Developer</h2>
           </div>
           <p className={styles.about}>
-            My passion for coding began as a teen. Creating inspired solutions
-            was exciting. Working in the tire industry I used my skills to
-            create an inventory tracker and automation tools that simplified
-            some of my day-to-day tasks. My role as a service coordinator
-            allowed me to develop exceptional organizational, communication, and
-            problem solving skills that will be very beneficial to a career in
-            software development.
+            My passion for coding began as a teen. Today I am an enthusiastic
+            Software Engineer eager to contribute to team success through hard
+            work, attention to detail and excellent organizational skills,
+            motivated to learn, grow and excel as a Full Stack Developer.
           </p>
           <pre className={styles.skills}>
             {`const skills = {
                 proficient: ["Javascript", "Node.js", "Express", "React", "HTML", "CSS", "Python", "Django", "MongoDB", "SQL (MySql, Postgresql)", "SASS", "Git", "Linux", "Rest API's"], 
-                familiar : [ "Redux", "Material-UI", "Materialize CSS", "Bootstrap", "JQuery" ] 
+                familiar : [ "Redux", "Material-UI", "Materialize CSS", "Bootstrap", "JQuery", "Jest" ] 
               }`}
           </pre>
         </div>

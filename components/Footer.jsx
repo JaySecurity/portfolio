@@ -2,6 +2,7 @@ import IconButton from '@material-ui/core/IconButton';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import DescriptionIcon from '@material-ui/icons/Description';
 import React from 'react';
 import styles from '../styles/Footer.module.css';
 
@@ -34,6 +35,11 @@ function Footer() {
         >
           <IconButton>
             <EmailIcon />
+          </IconButton>
+        </a>
+        <a target='_blank' rel='noreferrer' href='/resume.pdf'>
+          <IconButton>
+            <DescriptionIcon />
           </IconButton>
         </a>
       </div>
