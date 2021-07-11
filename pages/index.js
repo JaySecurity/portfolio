@@ -30,12 +30,16 @@ export default function Home() {
             work, attention to detail and excellent organizational skills,
             motivated to learn, grow and excel as a Full Stack Developer.
           </p>
-          <pre className={styles.skills}>
-            {`const skills = {
-                proficient: ["Javascript", "Node.js", "Express", "React", "HTML", "CSS", "Python", "Django", "MongoDB", "SQL (MySql, Postgresql)", "SASS", "Git", "Linux", "Rest API's"], 
-                familiar : [ "Redux", "Material-UI", "Materialize CSS", "Bootstrap", "JQuery", "Jest" ] 
-              }`}
-          </pre>
+          <div className={styles.skills}>
+            <h3>Skills:</h3>
+            <h4>Proficient:</h4>
+            <p>
+              Javascript, Node.js, Express, React, HTML, CSS, Python, Django,
+              MongoDB, SQL (MySql, Postgresql), SASS, Git, Linux, Rest API's
+            </p>
+            <h4>Familiar:</h4>
+            <p>Redux, Material-UI, Materialize CSS, Bootstrap, JQuery, Jest </p>
+          </div>
         </div>
       </main>
     </div>

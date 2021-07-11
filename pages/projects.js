@@ -54,6 +54,8 @@ export default function Projects() {
               <li>React-Leaflet</li>
               <li>Open Street Maps</li>
             </ul>
+            <p className={styles.creds}>Login: user@test.com</p>
+            <p className={styles.creds}>Password: testing321</p>
             <div className='buttons'>
               <a
                 href='https://github.com/JaySecurity/palm-patrol'
@@ -102,6 +104,8 @@ export default function Projects() {
               <li>theAudioBD API</li>
               <li>Songkick API</li>
             </ul>
+            <p className={styles.creds}>Login: testuser</p>
+            <p className={styles.creds}>Password: testing321</p>
             <div className='buttons'>
               <a
                 href='https://github.com/JaySecurity/MusicCatalogue'
@@ -148,6 +152,8 @@ export default function Projects() {
               <li>Sass</li>
               <li>EJS</li>
             </ul>
+            <p className={styles.creds}>Login: user@test.com</p>
+            <p className={styles.creds}>Password: testing321</p>
             <div className='buttons'>
               <a
                 href='https://github.com/JaySecurity/myLocalScene'
@@ -215,7 +221,7 @@ export default function Projects() {
                   className={styles.button}
                   startIcon={<PlayCircleOutlineIcon />}
                 >
-                  Live On Github Pages
+                  Live On Github
                 </Button>
               </a>
             </div>
