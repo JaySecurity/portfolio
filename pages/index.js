@@ -35,7 +35,8 @@ export default function Home() {
             <h4>Proficient:</h4>
             <p>
               Javascript, Node.js, Express, React, HTML, CSS, Python, Django,
-              MongoDB, SQL (MySql, Postgresql), SASS, Git, Linux, Rest API's
+              MongoDB, SQL (MySql, Postgresql), SASS, Git, Linux, Rest
+              API&apos;s
             </p>
             <h4>Familiar:</h4>
             <p>Redux, Material-UI, Materialize CSS, Bootstrap, JQuery, Jest </p>
